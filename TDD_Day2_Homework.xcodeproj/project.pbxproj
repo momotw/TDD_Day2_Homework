@@ -18,6 +18,10 @@
 		FAB603421C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB603411C99885800DA05E1 /* HarryPotterShoppingCar.m */; };
 		FAB603431C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB603411C99885800DA05E1 /* HarryPotterShoppingCar.m */; };
 		FAB603471C998F3500DA05E1 /* HarryPotterShoppingCarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB603461C998F3500DA05E1 /* HarryPotterShoppingCarTest.m */; };
+		FAB603541C99B82D00DA05E1 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB603521C99B82D00DA05E1 /* OCHamcrestIOS.framework */; };
+		FAB603551C99B82D00DA05E1 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */; };
+		FAB603561C99B83A00DA05E1 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB603521C99B82D00DA05E1 /* OCHamcrestIOS.framework */; };
+		FAB603571C99B83A00DA05E1 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,8 @@
 		FAB603401C99885800DA05E1 /* HarryPotterShoppingCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarryPotterShoppingCar.h; sourceTree = "<group>"; };
 		FAB603411C99885800DA05E1 /* HarryPotterShoppingCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarryPotterShoppingCar.m; sourceTree = "<group>"; };
 		FAB603461C998F3500DA05E1 /* HarryPotterShoppingCarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarryPotterShoppingCarTest.m; sourceTree = "<group>"; };
+		FAB603521C99B82D00DA05E1 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
+		FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB603541C99B82D00DA05E1 /* OCHamcrestIOS.framework in Frameworks */,
+				FAB603551C99B82D00DA05E1 /* OCMockitoIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB603561C99B83A00DA05E1 /* OCHamcrestIOS.framework in Frameworks */,
+				FAB603571C99B83A00DA05E1 /* OCMockitoIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +97,8 @@
 		BBF5D8A91C9692BB001A11D5 = {
 			isa = PBXGroup;
 			children = (
+				FAB603521C99B82D00DA05E1 /* OCHamcrestIOS.framework */,
+				FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */,
 				BBF5D8B41C9692BB001A11D5 /* TDD_Day2_Homework */,
 				BBF5D8CE1C9692BB001A11D5 /* TDD_Day2_HomeworkTests */,
 				BBF5D8D91C9692BB001A11D5 /* TDD_Day2_HomeworkUITests */,
