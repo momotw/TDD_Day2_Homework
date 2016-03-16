@@ -20,17 +20,10 @@
     
     if (items.count != uniqueItems.count)
     {
-        for (int i=0; i<items.count; i++)
+        if (items.count - uniqueItems.count == 1)
         {
-            id element = [items objectAtIndex:i];
-            if(element == ...) {
-                [items removeObjectAtIndex:i];
-                i--;
-            }
+            total = total + ([self getDiscountWithCount:(items.count - uniqueItems.count)] * 100);
         }
-        NSArray* mutilItems = [items linq_distinct];
-        
-        total = total + (mutilItems.count * 100) * [self getDiscountWithCount:mutilItems.count];
     }
     
     return total;
