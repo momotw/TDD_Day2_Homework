@@ -7,41 +7,42 @@
 //
 
 #import "HarryPotterShoppingCar.h"
+#import "LinqToObjectiveC.h"
 
 @implementation HarryPotterShoppingCar
 
 - (int)checkoutWithPayItems:(NSMutableArray*) items
 {
+    //只有一筆，直接回傳原本價格
     if (items.count == 1) return 100;
     
-//    NSMutableArray* payGroups = [NSMutableArray new];
+    NSArray* uniqueItems = [items linq_distinct];
     
+    double total = (uniqueItems.count * 100) * [self getDiscountWithCount:uniqueItems.count];
     
-//    NSMutableArray* book01Area = [NSMutableArray new];
-//    NSMutableArray* book02Area = [NSMutableArray new];
-//    NSMutableArray* book03Area = [NSMutableArray new];
-//    NSMutableArray* book04Area = [NSMutableArray new];
-//    NSMutableArray* book05Area = [NSMutableArray new];
-//    
-//    [items enumerateObjectsUsingBlock:^(NSString*  _Nonnull bookId, NSUInteger idx, BOOL * _Nonnull stop) {
-//        if ([bookId isEqualToString:@"BOOK01"]) {
-//            [book01Area addObject:bookId];
-//        }
-//        else if ([bookId isEqualToString:@"BOOK02"]) {
-//            [book02Area addObject:bookId];
-//        }
-//        else if ([bookId isEqualToString:@"BOOK03"]) {
-//            [book03Area addObject:bookId];
-//        }
-//        else if ([bookId isEqualToString:@"BOOK04"]) {
-//            [book04Area addObject:bookId];
-//        }
-//        else if ([bookId isEqualToString:@"BOOK05"]) {
-//            [book05Area addObject:bookId];
-//        }
-//    }];
-    
-    return 0;
+    return total;
+}
+
+- (double)getDiscountWithCount : (int) cnt
+{
+    switch (cnt)
+    {
+        case 2:
+            return 0.95;
+            break;
+        case 3:
+            return 0.9;
+            break;
+        case 4:
+            return 0.8;
+            break;
+        case 5:
+            return 0.75;
+            break;
+        default:
+            return 1;
+            break;
+    }
 }
 
 @end

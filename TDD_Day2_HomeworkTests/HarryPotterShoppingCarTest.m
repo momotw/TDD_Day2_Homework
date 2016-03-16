@@ -67,20 +67,44 @@
 
 - (void)test_一二三集各買了一本價格應為100乘3打九折等於270 {
     //given
+    [payItems addObject:@"BOOK01"];
+    [payItems addObject:@"BOOK02"];
+    [payItems addObject:@"BOOK03"];
+    
     //when
+    int price = [sut checkoutWithPayItems:payItems];
+    
     //then
+    assertThatInt(price, equalToInt(270));
 }
 
 - (void)test_一二三四集各買了一本價格應為100乘4打八折等於320 {
     //given
+    [payItems addObject:@"BOOK01"];
+    [payItems addObject:@"BOOK02"];
+    [payItems addObject:@"BOOK03"];
+    [payItems addObject:@"BOOK04"];
+    
     //when
+    int price = [sut checkoutWithPayItems:payItems];
+    
     //then
+    assertThatInt(price, equalToInt(320));
 }
 
 - (void)test_一次買了整套一二三四五集各買了一本價格應為100乘5打75折等於375 {
     //given
+    [payItems addObject:@"BOOK01"];
+    [payItems addObject:@"BOOK02"];
+    [payItems addObject:@"BOOK03"];
+    [payItems addObject:@"BOOK04"];
+    [payItems addObject:@"BOOK05"];
+    
     //when
+    int price = [sut checkoutWithPayItems:payItems];
+    
     //then
+    assertThatInt(price, equalToInt(375));
 }
 
 - (void)test_一二集各買了一本第三集買了兩本價格應為100乘3打9折加上100等於370 {

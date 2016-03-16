@@ -24,6 +24,10 @@
 		FAB603571C99B83A00DA05E1 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */; };
 		FAB603591C99B9DB00DA05E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FAB603581C99B9DB00DA05E1 /* README.md */; };
 		FAB6035A1C99B9DB00DA05E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FAB603581C99B9DB00DA05E1 /* README.md */; };
+		FAB603601C99F3CD00DA05E1 /* NSArray+LinqExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB6035D1C99F3CD00DA05E1 /* NSArray+LinqExtensions.m */; };
+		FAB603611C99F3CD00DA05E1 /* NSArray+LinqExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB6035D1C99F3CD00DA05E1 /* NSArray+LinqExtensions.m */; };
+		FAB603621C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB6035F1C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.m */; };
+		FAB603631C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB6035F1C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,11 @@
 		FAB603521C99B82D00DA05E1 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
 		FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
 		FAB603581C99B9DB00DA05E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAB6035B1C99F3CD00DA05E1 /* LinqToObjectiveC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinqToObjectiveC.h; sourceTree = "<group>"; };
+		FAB6035C1C99F3CD00DA05E1 /* NSArray+LinqExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LinqExtensions.h"; sourceTree = "<group>"; };
+		FAB6035D1C99F3CD00DA05E1 /* NSArray+LinqExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LinqExtensions.m"; sourceTree = "<group>"; };
+		FAB6035E1C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LinqExtensions.h"; sourceTree = "<group>"; };
+		FAB6035F1C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LinqExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +132,11 @@
 		BBF5D8B41C9692BB001A11D5 /* TDD_Day2_Homework */ = {
 			isa = PBXGroup;
 			children = (
+				FAB6035B1C99F3CD00DA05E1 /* LinqToObjectiveC.h */,
+				FAB6035C1C99F3CD00DA05E1 /* NSArray+LinqExtensions.h */,
+				FAB6035D1C99F3CD00DA05E1 /* NSArray+LinqExtensions.m */,
+				FAB6035E1C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.h */,
+				FAB6035F1C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.m */,
 				BBF5D8B81C9692BB001A11D5 /* AppDelegate.h */,
 				BBF5D8B91C9692BB001A11D5 /* AppDelegate.m */,
 				BBF5D8BB1C9692BB001A11D5 /* ViewController.h */,
@@ -297,7 +311,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBF5D8BD1C9692BB001A11D5 /* ViewController.m in Sources */,
+				FAB603621C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.m in Sources */,
 				FAB603421C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */,
+				FAB603601C99F3CD00DA05E1 /* NSArray+LinqExtensions.m in Sources */,
 				FAB603591C99B9DB00DA05E1 /* README.md in Sources */,
 				BBF5D8BA1C9692BB001A11D5 /* AppDelegate.m in Sources */,
 				BBF5D8B71C9692BB001A11D5 /* main.m in Sources */,
@@ -310,6 +326,8 @@
 			files = (
 				FAB6035A1C99B9DB00DA05E1 /* README.md in Sources */,
 				FAB603431C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */,
+				FAB603611C99F3CD00DA05E1 /* NSArray+LinqExtensions.m in Sources */,
+				FAB603631C99F3CD00DA05E1 /* NSDictionary+LinqExtensions.m in Sources */,
 				FAB603471C998F3500DA05E1 /* HarryPotterShoppingCarTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
