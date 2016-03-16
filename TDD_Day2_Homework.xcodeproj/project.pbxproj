@@ -447,6 +447,7 @@
 				);
 				INFOPLIST_FILE = TDD_Day2_Homework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momostudio.TDD-Day2-Homework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -462,6 +463,7 @@
 				);
 				INFOPLIST_FILE = TDD_Day2_Homework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momostudio.TDD-Day2-Homework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

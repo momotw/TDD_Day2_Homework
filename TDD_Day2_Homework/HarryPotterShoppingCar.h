@@ -10,4 +10,6 @@
 
 @interface HarryPotterShoppingCar : NSObject
 
+- (int)checkoutWithPayItems:(NSMutableArray*) items;
+
 @end
