@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray* arr = [[NSArray alloc] initWithObjects:@"A", @"B", @"C", nil];
+    NSArray* arr2 = [[NSArray alloc] initWithObjects:@"A", nil];
+    
+    NSArray *newArray=[arr arrayByAddingObjectsFromArray:arr2];
+
+    NSLog(@"888- %@", newArray);
 }
 
 - (void)didReceiveMemoryWarning {

@@ -13,12 +13,25 @@
 
 - (int)checkoutWithPayItems:(NSMutableArray*) items
 {
-    //只有一筆，直接回傳原本價格
-    if (items.count == 1) return 100;
-    
     NSArray* uniqueItems = [items linq_distinct];
+    double total = 0;
     
-    double total = (uniqueItems.count * 100) * [self getDiscountWithCount:uniqueItems.count];
+    total = (uniqueItems.count * 100) * [self getDiscountWithCount:uniqueItems.count];
+    
+    if (items.count != uniqueItems.count)
+    {
+        for (int i=0; i<items.count; i++)
+        {
+            id element = [items objectAtIndex:i];
+            if(element == ...) {
+                [items removeObjectAtIndex:i];
+                i--;
+            }
+        }
+        NSArray* mutilItems = [items linq_distinct];
+        
+        total = total + (mutilItems.count * 100) * [self getDiscountWithCount:mutilItems.count];
+    }
     
     return total;
 }
