@@ -1,5 +1,5 @@
 # TDD_Day2_Homework
 哈利波特購物車
 
-產品程式請見 TDD_Day2_Homework/HarryPotterShoppingCar.m
+產品程式請見 TDD_Day2_Homework/HarryPotterShoppingCar.m  
 測試案例請見 TDD_Day2_HomeworkTests/HarryPotterShoppingCarTest.m
