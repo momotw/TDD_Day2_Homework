@@ -7,10 +7,13 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <OCHamcrestIOS/OCHamcrestIOS.h>
+#import <OCMockitoIOS/OCMockitoIOS.h>
 
 @interface HarryPotterShoppingCarTest : XCTestCase
 {
     NSString* myName;
+    NSMutableArray* list;
 }
 @end
 
@@ -21,6 +24,8 @@
     // Put setup code here. This method is called before the invocation of each test method in the class.
     
     myName = @"Jack";
+    
+    list = mock([NSMutableArray class]);
 }
 
 - (void)tearDown {
