@@ -13,8 +13,11 @@
 		BBF5D8C01C9692BB001A11D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF5D8BE1C9692BB001A11D5 /* Main.storyboard */; };
 		BBF5D8C21C9692BB001A11D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF5D8C11C9692BB001A11D5 /* Assets.xcassets */; };
 		BBF5D8C51C9692BB001A11D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF5D8C31C9692BB001A11D5 /* LaunchScreen.storyboard */; };
-		BBF5D8D01C9692BB001A11D5 /* TDD_Day2_HomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5D8CF1C9692BB001A11D5 /* TDD_Day2_HomeworkTests.m */; };
 		BBF5D8DB1C9692BB001A11D5 /* TDD_Day2_HomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5D8DA1C9692BB001A11D5 /* TDD_Day2_HomeworkUITests.m */; };
+		FAB6033D1C99867500DA05E1 /* UserStory.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAB6033C1C99867500DA05E1 /* UserStory.rtf */; };
+		FAB603421C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB603411C99885800DA05E1 /* HarryPotterShoppingCar.m */; };
+		FAB603431C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB603411C99885800DA05E1 /* HarryPotterShoppingCar.m */; };
+		FAB603471C998F3500DA05E1 /* HarryPotterShoppingCarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB603461C998F3500DA05E1 /* HarryPotterShoppingCarTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +49,14 @@
 		BBF5D8C41C9692BB001A11D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBF5D8C61C9692BB001A11D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBF5D8CB1C9692BB001A11D5 /* TDD_Day2_HomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD_Day2_HomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBF5D8CF1C9692BB001A11D5 /* TDD_Day2_HomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Day2_HomeworkTests.m; sourceTree = "<group>"; };
 		BBF5D8D11C9692BB001A11D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBF5D8D61C9692BB001A11D5 /* TDD_Day2_HomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD_Day2_HomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF5D8DA1C9692BB001A11D5 /* TDD_Day2_HomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDD_Day2_HomeworkUITests.m; sourceTree = "<group>"; };
 		BBF5D8DC1C9692BB001A11D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB6033C1C99867500DA05E1 /* UserStory.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = UserStory.rtf; sourceTree = "<group>"; };
+		FAB603401C99885800DA05E1 /* HarryPotterShoppingCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarryPotterShoppingCar.h; sourceTree = "<group>"; };
+		FAB603411C99885800DA05E1 /* HarryPotterShoppingCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarryPotterShoppingCar.m; sourceTree = "<group>"; };
+		FAB603461C998F3500DA05E1 /* HarryPotterShoppingCarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarryPotterShoppingCarTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,8 @@
 				BBF5D8C31C9692BB001A11D5 /* LaunchScreen.storyboard */,
 				BBF5D8C61C9692BB001A11D5 /* Info.plist */,
 				BBF5D8B51C9692BB001A11D5 /* Supporting Files */,
+				FAB603401C99885800DA05E1 /* HarryPotterShoppingCar.h */,
+				FAB603411C99885800DA05E1 /* HarryPotterShoppingCar.m */,
 			);
 			path = TDD_Day2_Homework;
 			sourceTree = "<group>";
@@ -125,8 +133,9 @@
 		BBF5D8CE1C9692BB001A11D5 /* TDD_Day2_HomeworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				BBF5D8CF1C9692BB001A11D5 /* TDD_Day2_HomeworkTests.m */,
 				BBF5D8D11C9692BB001A11D5 /* Info.plist */,
+				FAB6033C1C99867500DA05E1 /* UserStory.rtf */,
+				FAB603461C998F3500DA05E1 /* HarryPotterShoppingCarTest.m */,
 			);
 			path = TDD_Day2_HomeworkTests;
 			sourceTree = "<group>";
@@ -253,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB6033D1C99867500DA05E1 /* UserStory.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBF5D8BD1C9692BB001A11D5 /* ViewController.m in Sources */,
+				FAB603421C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */,
 				BBF5D8BA1C9692BB001A11D5 /* AppDelegate.m in Sources */,
 				BBF5D8B71C9692BB001A11D5 /* main.m in Sources */,
 			);
@@ -280,7 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBF5D8D01C9692BB001A11D5 /* TDD_Day2_HomeworkTests.m in Sources */,
+				FAB603431C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */,
+				FAB603471C998F3500DA05E1 /* HarryPotterShoppingCarTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +423,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TDD_Day2_Homework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momostudio.TDD-Day2-Homework";
@@ -422,6 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TDD_Day2_Homework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momostudio.TDD-Day2-Homework";
@@ -433,6 +453,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TDD_Day2_HomeworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momostudio.TDD-Day2-HomeworkTests";
@@ -445,6 +469,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TDD_Day2_HomeworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.momostudio.TDD-Day2-HomeworkTests";
@@ -496,6 +524,7 @@
 				BBF5D8E11C9692BB001A11D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBF5D8E21C9692BB001A11D5 /* Build configuration list for PBXNativeTarget "TDD_Day2_HomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +533,7 @@
 				BBF5D8E41C9692BB001A11D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBF5D8E51C9692BB001A11D5 /* Build configuration list for PBXNativeTarget "TDD_Day2_HomeworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +542,7 @@
 				BBF5D8E71C9692BB001A11D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

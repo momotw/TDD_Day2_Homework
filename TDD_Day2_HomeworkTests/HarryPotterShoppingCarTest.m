@@ -1,22 +1,26 @@
 //
-//  TDD_Day2_HomeworkTests.m
-//  TDD_Day2_HomeworkTests
+//  HarryPotterShoppingCarTest.m
+//  TDD_Day2_Homework
 //
-//  Created by newegg on 2016/3/14.
+//  Created by 毛俊傑 on 2016/3/16.
 //  Copyright © 2016年 mOMo Studio. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface TDD_Day2_HomeworkTests : XCTestCase
-
+@interface HarryPotterShoppingCarTest : XCTestCase
+{
+    NSString* myName;
+}
 @end
 
-@implementation TDD_Day2_HomeworkTests
+@implementation HarryPotterShoppingCarTest
 
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    myName = @"Jack";
 }
 
 - (void)tearDown {
@@ -27,6 +31,8 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    XCTAssert([myName isEqualToString:@"Jack"]);
 }
 
 - (void)testPerformanceExample {
