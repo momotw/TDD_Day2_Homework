@@ -22,6 +22,8 @@
 		FAB603551C99B82D00DA05E1 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */; };
 		FAB603561C99B83A00DA05E1 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB603521C99B82D00DA05E1 /* OCHamcrestIOS.framework */; };
 		FAB603571C99B83A00DA05E1 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */; };
+		FAB603591C99B9DB00DA05E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FAB603581C99B9DB00DA05E1 /* README.md */; };
+		FAB6035A1C99B9DB00DA05E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FAB603581C99B9DB00DA05E1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,7 @@
 		FAB603461C998F3500DA05E1 /* HarryPotterShoppingCarTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarryPotterShoppingCarTest.m; sourceTree = "<group>"; };
 		FAB603521C99B82D00DA05E1 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
 		FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
+		FAB603581C99B9DB00DA05E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		BBF5D8A91C9692BB001A11D5 = {
 			isa = PBXGroup;
 			children = (
+				FAB603581C99B9DB00DA05E1 /* README.md */,
 				FAB603521C99B82D00DA05E1 /* OCHamcrestIOS.framework */,
 				FAB603531C99B82D00DA05E1 /* OCMockitoIOS.framework */,
 				BBF5D8B41C9692BB001A11D5 /* TDD_Day2_Homework */,
@@ -294,6 +298,7 @@
 			files = (
 				BBF5D8BD1C9692BB001A11D5 /* ViewController.m in Sources */,
 				FAB603421C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */,
+				FAB603591C99B9DB00DA05E1 /* README.md in Sources */,
 				BBF5D8BA1C9692BB001A11D5 /* AppDelegate.m in Sources */,
 				BBF5D8B71C9692BB001A11D5 /* main.m in Sources */,
 			);
@@ -303,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB6035A1C99B9DB00DA05E1 /* README.md in Sources */,
 				FAB603431C99885800DA05E1 /* HarryPotterShoppingCar.m in Sources */,
 				FAB603471C998F3500DA05E1 /* HarryPotterShoppingCarTest.m in Sources */,
 			);
