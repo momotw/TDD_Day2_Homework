@@ -14,16 +14,11 @@
 - (int)checkoutWithPayItems:(NSMutableArray*) items
 {
     NSArray* uniqueItems = [items linq_distinct];
-    double total = 0;
     
-    total = (uniqueItems.count * 100) * [self getDiscountWithCount:uniqueItems.count];
+    double total = (uniqueItems.count * 100) * [self getDiscountWithCount:uniqueItems.count];
     
-    if (items.count != uniqueItems.count)
-    {
-        if (items.count - uniqueItems.count == 1)
-        {
-            total = total + ([self getDiscountWithCount:(items.count - uniqueItems.count)] * 100);
-        }
+    if (items.count != uniqueItems.count) {
+        total = total + ((items.count - uniqueItems.count) * 100) * [self getDiscountWithCount:(items.count - uniqueItems.count)];
     }
     
     return total;
